@@ -22,3 +22,7 @@ body {
     max-height: 300px;
     object-fit: contain;
   }
+
+  .product-detail .card{
+    width: 300px;
+  }
