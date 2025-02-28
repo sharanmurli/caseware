@@ -1,13 +1,16 @@
-<!--Produc Detail View-->
+
 <!-- Product Detail View -->
-<div class="container d-flex justify-content-center align-items-center vh-100 mt-5 mb-5">
-    <div *ngIf="product" class="card shadow p-4 text-center" style="max-width: 500px; width: 100%;">
-      <img [src]="product.imageUrl" class="card-img-top mx-auto d-block" style="max-height: 300px; object-fit: contain;" alt="{{ product.name }}">
+<!-- Product Detail View -->
+<div class="container product-detail">
+    <h2 class="text-center my-4">Product Details</h2>
+    <div *ngIf="product" class="card">
+      <img [src]="product.imageUrl" class="card-img-top" alt="{{ product.name }}">
       <div class="card-body">
-        <h2>{{ product.name }}</h2>
+        <h3>{{ product.name }}</h3> 
         <p>{{ product.description }}</p>
-        <h4 class="text-success">${{ product.price }}</h4>
+        <h4 class="text-success">${{ product.price }}</h4> 
         <a class="btn btn-secondary mt-3" routerLink="/products">Back to Products</a>
       </div>
     </div>
 </div>
+  
