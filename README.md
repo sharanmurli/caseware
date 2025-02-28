@@ -1,13 +1,12 @@
 ## **📌 Caseware Assessment Project**  
-The **Angular Product List Application** is a simple yet dynamic web application that displays a **list of products** and allows users to view **detailed information** about each product.  
+The **Angular Product List Application** is a simple web application that displays a **list of products** and allows users to view **detailed information** about each product.  
 
 ### **🔹 Features:**  
-✔ **Product List View** – Displays all products with **name, description, price, and image**.  
+✔ **Product List View** – Displays all products with **name, description, price and image**.  
 ✔ **Product Detail View** – Shows **detailed information** for a selected product.  
 ✔ **Reusable Components** – `ProductCardComponent` for individual product cards.  
 ✔ **Routing & Navigation** – Seamless navigation between product list and product details.  
 ✔ **Service & Data Handling** – Uses `ProductService` to fetch product data.  
-✔ **Modern UI** – Styled with **Bootstrap** for a clean and responsive look.  
 
 ---
 
@@ -19,9 +18,6 @@ Ensure you have the following installed before running the project:
 ```bash
 npm install -g @angular/cli
 ```
-✅ **Git (if cloning from GitHub)** – [Download Here](https://git-scm.com/)  
-
----
 
 ## **📌 Clone the Repository & Run the Project**  
 ### **1️⃣ Clone the Repository**  
