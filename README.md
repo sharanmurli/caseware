@@ -1,25 +1,29 @@
-## **📌 Caseware Assessment Project**  
-The **Angular Product List Application** is a simple web application that displays a **list of products** and allows users to view **detailed information** about each product.  
+# **📌 Caseware Assessment Project**  
 
-### **🔹 Features:**  
-✔ **Product List View** – Displays all products with **name, description, price and image**.  
-✔ **Product Detail View** – Shows **detailed information** for a selected product.  
-✔ **Reusable Components** – `ProductCardComponent` for individual product cards.  
-✔ **Routing & Navigation** – Seamless navigation between product list and product details.  
-✔ **Service & Data Handling** – Uses `ProductService` to fetch product data.  
+The **Angular Product List Application** is a web application that displays a **list of products** and allows users to view **detailed information** about each product.  
+
+## **Features**  
+- **Product List View** – Displays all products with **name, description, price, and image**.  
+- **Product Detail View** – Shows **detailed information** for a selected product.  
+- **Reusable Components** – Uses `ProductCardComponent` for individual product cards.  
+- **Routing & Navigation** – Seamless navigation between product list and product details.  
+- **Service & Data Handling** – Uses `ProductService` to fetch product data.  
 
 ---
 
-## **📌 Prerequisites**  
+## **Prerequisites**  
 Ensure you have the following installed before running the project:  
 
-✅ **Node.js (LTS version)** – [Download Here](https://nodejs.org/)  
-✅ **Angular CLI** – Install via:  
-```bash
-npm install -g @angular/cli
-```
+- **Node.js (LTS version)** – [Download Here](https://nodejs.org/)  
+- **Angular CLI** – Install via:  
+  ```bash
+  npm install -g @angular/cli
+  ```
 
-## **📌 Clone the Repository & Run the Project**  
+---
+
+## **Clone the Repository & Run the Project**  
+
 ### **1️⃣ Clone the Repository**  
 ```bash
 git clone https://github.com/sharanmurli/caseware.git
@@ -31,24 +35,23 @@ Run:
 ```bash
 npm install
 ```
-This installs all required **Node modules**.
+This installs all required dependencies.
 
 ### **3️⃣ Start the Development Server**  
 Run:  
 ```bash
 ng serve
 ```
-This starts a local server at:  
-➡ **http://localhost:4200/**  
+The project will run locally at: **http://localhost:4200/**  
 
 ### **4️⃣ Open the Application in Your Browser**  
-Go to **http://localhost:4200/products** to view the **Product List Page**.  
+Navigate to **http://localhost:4200/products** to view the **Product List Page**.  
 
 ---
 
-## **📌 Available Routes**  
+## **Available Routes**  
 | **Route** | **Description** |
 |-----------|---------------|
-| `/products` | Displays the **Product List** with names, descriptions, and prices. |
-| `/products/:id` | Shows **detailed product information** (name, description, price, and image). |
+| `/products` | Displays the **Product List** with name, description, price, and image. |
+| `/products/:id` | Shows **detailed product information** for the selected product. |
 
